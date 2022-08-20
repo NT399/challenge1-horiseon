@@ -1,13 +1,16 @@
+/* This is a universal selector which stipulates box sizing, padding and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* This element stipulates our background colour for the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* This is a class selector which details the padding, font family, background colour and colour of our header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* This lines specifies the display and font-size for the heading */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This line colours the 'seo' part of the heading white */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* This class selector creates padding, margin, float and font properties to the items under div */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,20 +42,24 @@ body {
     list-style-type: none;
 }
 
+/* This line specifies all the style (display/margin) for all the bullets in the list */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changes the colour of the text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This element changes the font size*/
 p {
     font-size: 16px;
 }
 
+/* This class selector stipulates the height, width, margin, image and positioning. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +69,26 @@ p {
     background-position: center;
 }
 
+/* Class selector which shows what position to float in as well as margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class selector which shows what position to float in as well as margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Class selector which shows the width, display type and margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class selector which stipulates the margin, padding, floating position, width height, font and background colour */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,55 +100,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Class selector which shows the margin and colour */
+.benefit-items {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* Class selector which shows the margin and text alignment for the heading */
+.benefit-items h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* Class selector which shows the width, display type and margin for the image */
+.benefit-items img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Class selector which stipulates the margin, padding, height, font, colour and background colour */
+.business-services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,58 +129,22 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Class selector which stipulates the height for the image */
+.business-services img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Class selector which shows the margin and font size for the h2 heading */
+.business-services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Class selector which shows the padding, clear, font family and text alignment for the footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }

@@ -25,7 +25,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 To view the website please follow this link: https://nt399.github.io/challenge1-horiseon/#search-engine-optimization
 
-![Screenshot of the website](asset/Screenshot of website.PNG)
+![Screenshot of the website]([asset/Screenshot of website.PNG)](https://github.com/NT399/challenge1-horiseon/blob/main/asset/Screenshot%20of%20website.PNG)
 
 ## Credits
 
